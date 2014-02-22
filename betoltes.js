@@ -12,10 +12,10 @@ toltsdBeAMezot = function(vizszintes, fuggoleges) {
     // használni, mi viszont egy pár különleges dolgot fogunk itt csinálni
     // majd.
 
-    var mezo = function(opciok) { mezoKeszites(vizszintes, fuggoleges, opciok) }
+    var mezo = function(opciok) { mezoKeszites(vizszintes, fuggoleges, opciok); }
     try {
       eval(xhr.responseText);
-    } catch() {
+    } catch (hiba) {
       alert("A " + vizszintes + "x" + fuggoleges + " mező fájlban hibát találtam!")
     }
   }
