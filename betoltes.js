@@ -5,7 +5,7 @@ letezoMezo = function(vizszintes, fuggoleges) {
 
 toltsdBeAMezot = function(vizszintes, fuggoleges) {
   // A fájlnév egyszerűen a koordinátákból képezzük.
-  fajlnev = vizszintes + 'x' + fuggoleges;
+  fajlnev = vizszintes + 'x' + fuggoleges + '.js';
   xhr = new XMLHttpRequest();
   xhr.onload = function() {
     // eval az egy nagyon veszélyes dolog, ezért nem szabad általában
