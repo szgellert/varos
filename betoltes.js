@@ -19,7 +19,7 @@ toltsdBeAMezot = function(vizszintes, fuggoleges) {
       alert("A " + vizszintes + "x" + fuggoleges + " mező fájlban hibát találtam!")
     }
   }
-  xhr.open("GET", "https://raw.github.com/csorvas/varos/master/mezok/" + fajlnev);
+  xhr.open("GET", "https://rawgithub.com/csorvas/varos/master/mezok/" + fajlnev);
   xhr.send();
 }
 
