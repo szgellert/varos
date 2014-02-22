@@ -1,4 +1,4 @@
 
-letezoMezo(1, 23)
-letezoMezo(2, 20)
+letezoMezo(5, 2)
+letezoMezo(2, 8)
 
